@@ -1,0 +1,17 @@
+1.Software Development Environment Tools
+	VSCode
+2.Front-end Software
+	Nodejs
+	j2sdk 8 (jse)
+3.Back-end Software
+	Virtual Machine (Back-end)
+		VirtualBox
+			Ubuntu 20.04
+	xampp 
+LAMP Stack for 
+Local Development
+		PHP8
+		MySQL
+		Apache Web Server
+	MySQL Workbench
+	Nodejs
