@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>RegistrationForm</title>
+</head>
+
+<body bgcolor="#00FF66">
+    <h3 align="center"> Study of form tag</h3>
+    <h2 align="center"><u>STUDENT REGISTRATION FORM</u></h2>
+    <form action="abc.html" name="f" method="post" autocomplete="on">
+        <table width="200" border="1">
+            <tr>
+                <th>FirstName:</th>
+                <td><input type="text" name="id1" id="id1" size="30" maxlength="20" /></td>
+            </tr>
+            <tr>
+                <th>LastName:</th>
+                <td><input type="text" name="id2" id="id2" size="30" maxlength="20" /></td>
+            </tr>
+            <tr>
+                <th>Valid Email:</th>
+                <td><input type="text" name="id3" id="id3" size="70" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td>
+                    <inputtype="password"name="id4"id="id4"size="50"maxlength="10" />
+                </td>
+            </tr>
+            <tr>
+                <th>PhoneNumber:</th>
+                <td><input type="text" name="id5" id="id5" size="30" maxlength="11" /></td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td><b>Male:</b>
+                    <input type="radio" name="gender" id="r1" value="male" />
+                    <b>Female:</b><input type="radio" name="gender" id="r1" value="female" />
+                </td>
+            </tr>
+            <tr>
+                <th>Date of Birth:</th>
+                <td><input type="text" name="dob" /></td>
+            </tr>
+
+            <tr>
+                <th>Qualifications:</th> type="checkbox"name="a1"id="a1"/>
+                <td>
+                    <b>SSC</b><input type="checkbox" name="a1" id="a1" /> <b>Percentage:</b><input type="text"
+                        name="id9" id="id9" size="5" /></br>
+                    <b>HSC</b><input type="checkbox" name="a1" id="a1" /> <b>Percentage:</b><input type="text"
+                        name="id10" id="id10" size="5" /></br>
+                    <b>BCA</b><input type="checkbox" name="a1" id="a1" /> <b>Percentage:</b><input type="text"
+                        name="id11" id="id11" size="5" /></br>
+                    <b>MCA</b><input type="checkbox" name="a1" id="a1" /> <b>Percentage:</b><input type="text"
+                        name="id12" id="id12" size="5" /></br>
+                    <b>MBA</b><input type="checkbox" name="a1" id="a1" /> <b>Percentage:</b><input type="text"
+                        name="id13" Id="id13" size="5" />
+                </td>
+            </tr>
+
+            <tr>
+                <th>Experience</th>
+                <td><select name="sc1" id="sc1" size="1">
+                        <option>0-1Year</option>
+                        <option>2-3Year</option>
+                        <option>3-5Year</option>
+                        <option>Morethan5Year</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th>Upload Photo :</th>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <input type="submit" value="Submit" onClick="alert('Your Application have been Submitted');" />
+                        &nbsp;&nbsp;<input type="reset" value="Reset"
+                            onClick="alert('Your Applicationis not Submitted');" />
+                    </center>
+                </td>
+            </tr>
+
+
+        </table>
+</body>
+
+</html>
